@@ -3,28 +3,36 @@
 	<head>
 		<title>West Valley Music Academy</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/one_page_website.css">
+		<link rel="stylesheet" href="./CSS/one_page_animations.css">
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+        <link rel="manifest" href="./images/site.webmanifest">
 	</head>
 	<body>
-	
+
+		<!--LOGO-->
+			<div class="logo">
+				<img src="./images/logo/wvmalogo.png">
+			</div>
+		<!--END LOGO-->
 		<!--NAV-->
-		<div>
-			<div>
-			<nav>
-				<p><img src="./images/logo/wvmalogo.png" style="width:100px;height:100px;">
-				<a href="#home">Home&nbsp;|</a>
-				<a href="#courses">Courses&nbsp;|</a>
-				<a href="#contact">Contact Us</p></a>
-			</nav>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>Home</li></a>
+					<a href="#courses"><li>Courses</li></a>
+					<a href="#contact"><li>Contact Us</li></a>
+				</ul>
 			</div>
 		</div>
 		<!--END NAV-->
 		
 		<!--HOME-->
 		<div id="home">
-			<div>
-				<img src="./images/guitarclass.jpg">
-				<div>
-					<span>West Valley Music Academy</span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">West Valley Music Academy</span>
 				</div>
 			</div>
 		</div>
@@ -32,142 +40,154 @@
 		
 		<!--COURSES-->
 		<section>
-		<div id="courses">
-			<h2>Anybody can learn music.</h2>
-			<p>Whether you are a brand new beginner or just trying to get out of a rut, we have a place for you here at West Valley Music Academy.<br>
-			Our courses are designed to be able to teach anybody to play the instrument they want to.<br>
-			Take a look at the courses we offer, and let us know where you'd like to start!  We would love to have you.</p>
-			
-				<!--PHOTO CONTAINER 1-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_1.png" alt="Basic Guitar">
-						<div>
-							<h3>Guitar Basics</h3>
-							<p>A beginner guitar course.<br>
-							Learn the basics of chords, scales, and more.</p>
+			<div id="courses">
+				<h1>Anybody can learn music.</h1>
+					<p>Whether you are a brand new beginner or just trying to get out of a rut, we have a place for you here at West Valley Music Academy.<br>
+					Our courses are designed to be able to teach anybody to play the instrument they want to.<br>
+					Take a look at the courses we offer, and let us know where you'd like to start!  We would love to have you.</p>
+				<div class="container">					
+					<h1>Courses:</h1>
+					<div class="flex-container">
+
+						<!--COURSE CONTAINER 1-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_1.png" alt="Basic Guitar">
+								<div class="course-overlay">
+									<h3>Guitar Basics</h3>
+									<p>A beginner guitar course.<br>
+									Learn the basics of chords, scales, and more.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 1-->
-				
-				<!--PHOTO CONTAINER 2-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_2.png" alt="Advanced Guitar">
-						<div>
-							<h3>Advanced Guitar</h3>
-							<p>Push your guitar skills to the next level.<br>
-							Learn some of the more exotic chords and scales.</p>
+						<!--END COURSE CONTAINER 1-->
+						
+						<!--COURSE CONTAINER 2-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_2.png" alt="Advanced Guitar">
+								<div class="course-overlay">
+									<h3>Advanced Guitar</h3>
+									<p>Push your guitar skills to the next level.<br>
+									Learn some of the more exotic chords and scales.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 2-->
-				
-				<!--PHOTO CONTAINER 3-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_3.png" alt="Basic Bass">
-						<div>
-							<h3>Bass Guitar Basics</h3>
-							<p>A beginner bass guitar course.<br>
-							Learn the basic scales and how to hold down a groove.</p>
+						<!--END COURSE CONTAINER 2-->
+						
+						<!--COURSE CONTAINER 3-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_3.png" alt="Basic Bass">
+								<div class="course-overlay">
+									<h3>Bass Guitar Basics</h3>
+									<p>A beginner bass guitar course.<br>
+									Learn the basic scales and how to hold down a groove.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 3-->
-				
-				<!--PHOTO CONTAINER 4-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_4.png" alt="Advanced Bass">
-						<div>
-							<h3>Advanced Bass Guitar</h3>
-							<p>Push your bass skills to the next level.<br>
-							Learn some of the more advanced bass techniques.</p>
+						<!--END COURSE CONTAINER 3-->
+						
+						<!--COURSE CONTAINER 4-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_4.png" alt="Advanced Bass">
+								<div class="course-overlay">
+									<h3>Advanced Bass Guitar</h3>
+									<p>Push your bass skills to the next level.<br>
+									Learn some of the more advanced bass techniques.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 4-->
-				
-				<!--PHOTO CONTAINER 5-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_5.png" alt="Basic Drums">
-						<div>
-							<h3>Drumming Basics</h3>
-							<p>A beginner drumming course.<br>
-							Learn the basics of drumming and how to keep a rhythm while building stamina.</p>
+						<!--END COURSE CONTAINER 4-->
+						
+						<!--COURSE CONTAINER 5-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_5.png" alt="Basic Drums">
+								<div class="course-overlay">
+									<h3>Drumming Basics</h3>
+									<p>A beginner drumming course.<br>
+									Learn the basics of drumming and how to keep a rhythm while building stamina.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 5-->
-				
-				<!--PHOTO CONTAINER 6-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_6.png" alt="Advanced Drums">
-						<div>
-							<h3>Advanced Drumming</h3>
-							<p>Push your drumming skills to the next level.<br>
-							Learn some of the more advanced drumming techniques.</p>
+						<!--END COURSE CONTAINER 5-->
+						
+						<!--COURSE CONTAINER 6-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_6.png" alt="Advanced Drums">
+								<div class="course-overlay">
+									<h3>Advanced Drumming</h3>
+									<p>Push your drumming skills to the next level.<br>
+									Learn some of the more advanced drumming techniques.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 6-->
-				
-				<!--PHOTO CONTAINER 7-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_7.png" alt="Singing">
-						<div>
-							<h3>Singing</h3>
-							<p>A singing course.<br>
-							Learn how to sing using your voice's own strengths.</p>
+						<!--END COURSE CONTAINER 6-->
+						
+						<!--COURSE CONTAINER 7-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_7.png" alt="Singing">
+								<div class="course-overlay">
+									<h3>Singing</h3>
+									<p>A singing course.<br>
+									Learn how to sing using your voice's own strengths.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 7-->
-				
-				<!--PHOTO CONTAINER 8-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_8.png" alt="Music Theory">
-						<div>
-							<h3>Music Theory Basics</h3>
-							<p>A beginner course on music theory.<br>
-							Learn how to write music and understand what you play.</p>
+						<!--END COURSE CONTAINER 7-->
+						
+						<!--COURSE CONTAINER 8-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_8.png" alt="Music Theory">
+								<div class="course-overlay">
+									<h3>Music Theory Basics</h3>
+									<p>A beginner course on music theory.<br>
+									Learn how to write music and understand what you play.</p>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<!--END PHOTO CONTAINER 8-->
-				
-				<!--PHOTO CONTAINER 9-->
-				<div>
-					<div>
-						<img src="./images/thumb/thumbnail_9.png" alt="Adv Music Theory">
-						<div>
-							<h3>Advanced Music Theory</h3>
-							<p>Push your music knowledge to the next level.<br>
-							Gain more complex and difficult music knowledge.</p>
+						<!--END COURSE CONTAINER 8-->
+						
+						<!--COURSE CONTAINER 9-->
+						<div class="course-container">
+							<div class="course">
+								<img src="./images/thumb/thumbnail_9.png" alt="Adv Music Theory">
+								<div class="course-overlay">
+									<h3>Advanced Music Theory</h3>
+									<p>Push your music knowledge to the next level.<br>
+									Gain more complex and difficult music knowledge.</p>
+								</div>
+							</div>
 						</div>
+						<!--END COURSE CONTAINER 9-->
+					
 					</div>
-				</div>
-				<!--END PHOTO CONTAINER 9-->
-			
+				</div>	
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/oU4i59Mf8Yo"></iframe>
-		</div>
+			<div class="video-format">	
+				<iframe width="1120" height="630" src="https://www.youtube.com/embed/oU4i59Mf8Yo"></iframe>
+			</div>
+
 		</section>
 		<!--END COURSES-->
 		
 		<!--CONTACT US-->
-		<section>
-			<div id="contact">
-				<div>
-					<div>
-						
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<div class="signup">
 						<div>
+							<h2><span>Anybody can learn music.</span>
+								<br/>Enroll today to start!
+							</h2>
+							<p class="signup-text">
+								Let us know how to contact you, and a little bit about your interests.
+							</p>
 							<form action="" method="post">
 								<input class="signup" type="text" value="First Name">
 								<input class="signup" type="text" value="Last Name">
@@ -177,7 +197,7 @@
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Get Started!">
 								</div>
 							</form>
@@ -189,15 +209,13 @@
 		<!--END CONTACT US-->
 		
 		<!--FOOTER-->
-		<footer>
-			<div>
-				(801)555-5555<br>
-				1234 Constitution Blvd<br>
-				West Valley City, UT  84129<br>
-				admissions@wvma.com<br>
-				West Valley Music Academy&nbsp;|&nbsp;&copy;2023
-			</div>
-		</footer>
+		<div id="footer">
+				(801)555-5555
+				<br/>1234 Constitution Blvd
+				<br/>West Valley City, UT  84129
+				<br/>admissions@wvma.com
+				<br/>West Valley Music Academy&nbsp;|&nbsp;&copy;2023
+		</div>
 		<!--END FOOTER-->
 	
 	</body>
