@@ -2,7 +2,7 @@
 
 This repository contains my HTML and CSS projects for The Tech Academy. 
 
-##Projects
+## Projects
 
 - [Warhammer 40k Club site](https://github.com/azurcher09/HTML-and-CSS-Projects/tree/main/Project)
 - [West Valley Music Academy site](https://github.com/azurcher09/HTML-and-CSS-Projects/tree/main/One-Page_Website)
